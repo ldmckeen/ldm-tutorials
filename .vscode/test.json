@@ -1,0 +1,1 @@
+{'credential': 'sv=x&sr=c&se=xxx&sp=rwd&sig=xxx', 'resourceName': 'demo-data-dr-connectors-poc-g1ms', 'Blob': {'accountName': 'mefpocpocg1drtgs002', 'credentialUri': 'https: //mefpocpocg1drtgs002.blob.core.windows.net/demo-data-dr-connectors-poc-g1ms?sv=x&sr=c&se=xxx&sp=rwd&sig=xxx', 'credentialExpiryTime': 1575818535790}}

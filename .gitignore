@@ -1,0 +1,6 @@
+### macOS template
+*.DS_Storeut
+
+.idea/*
+
+*.DS_Store
