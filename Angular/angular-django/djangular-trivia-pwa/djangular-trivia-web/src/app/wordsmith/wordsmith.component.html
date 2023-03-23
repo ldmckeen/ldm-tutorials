@@ -1,0 +1,39 @@
+<div id="wordtype-container">
+  <div id="wordtype-header">
+        <h3>Word Types</h3>
+
+<!--    <h3>Question {{ wordtypeNumber + 1 }}</h3>-->
+<!--    <h3 class="score">Score: {{ correctAnswers }}/{{ wordtypeNumber }}</h3>-->
+  </div>
+ <ul>
+  <li *ngFor="let wordType of wordsmithData">
+    <h4>{{wordType.name}}</h4>
+  </li>
+</ul>
+<!--  <ng-container *ngIf="wordtype; else quizComplete">-->
+<!--    <p><b>{{ wordtype.category }}</b></p>-->
+<!--    <label id="wordtype-radio-group-label" [innerHTML]="wordtype.wordtype"></label>-->
+<!--    <mat-radio-group-->
+<!--      aria-labelledby="wordtype-radio-group-label"-->
+<!--      class="wordtype-radio-group"-->
+<!--      [disabled]="disableRadioButtons"-->
+<!--      [(ngModel)]="answer">-->
+<!--      <mat-radio-button class="wordtype-radio-button" *ngFor="let answer of wordtype.answers" [value]="answer" (change)="answerSelected($event)">-->
+<!--        {{answer.answer}}-->
+<!--      </mat-radio-button>-->
+<!--    </mat-radio-group>-->
+
+<!--    <div *ngIf="answer">-->
+<!--      <div *ngIf="answer.is_correct; else incorrect">-->
+<!--        <p>Correct!</p>-->
+<!--      </div>-->
+<!--      <ng-template #incorrect>-->
+<!--        <p>Wrong! The correct answer is {{ getCorrectAnswer() }}</p>-->
+<!--      </ng-template>-->
+<!--    </div>-->
+<!--    <button mat-flat-button color="primary" id="next-button" [disabled]="disableNextButton" (click)="getNextQuestion()">Next Question</button>-->
+<!--  </ng-container>-->
+<!--  <ng-template #quizComplete>-->
+<!--    <p>We're all out of wordtypes!</p>-->
+<!--  </ng-template>-->
+</div>

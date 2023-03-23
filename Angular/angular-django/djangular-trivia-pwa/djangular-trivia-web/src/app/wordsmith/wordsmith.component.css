@@ -1,0 +1,19 @@
+#wordtype-container {
+  padding: 20px;
+}
+
+#wordtype-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wordtype-radio-group {
+   display: flex;
+   flex-direction: column;
+   margin: 15px 0;
+   align-items: flex-start;
+ }
+
+ .wordtype-radio-button {
+   margin: 5px;
+ }

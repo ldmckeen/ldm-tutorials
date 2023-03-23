@@ -16,7 +16,7 @@ import sys
 def fizzBuzz(n):
     # Write your code here
     for i in range(1, n+1):
-        if i % 3 == 0 and i % 5 == 0:
+        if i % 15 == 0:  # 15 is multiple of 3 and 5
             print("FizzBuzz")
         elif i % 3 == 0 and i % 5 != 0:
             print("Fizz")

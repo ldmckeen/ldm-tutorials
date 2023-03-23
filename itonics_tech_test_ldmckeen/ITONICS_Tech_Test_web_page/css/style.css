@@ -1,0 +1,43 @@
+#container
+{
+	height: auto !important;
+    margin-bottom: -50px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+}
+
+
+/**********************************************************************/
+html
+{
+	height:100%;
+}
+
+body
+{
+	/*background: url("../images/Background.png") repeat scroll 0 0 / 100% 100% transparent;*/ /*Remember to check full url*/
+    background: #000;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+    height: 100%;
+    margin: 0 auto;
+    min-height: 100%;
+    text-align: center;
+	width: 100%;
+    color: #eee;
+}
+
+/**********************************************************************
+ * BODY
+ * *******************************************************************/
+
+
+.rowTable {
+display: table;
+}
+
+.rowTable [class*="col-"] {
+float: none;
+display: table-cell;
+vertical-align: top;
+}
